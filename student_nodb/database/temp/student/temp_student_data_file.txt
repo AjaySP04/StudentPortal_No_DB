@@ -1,0 +1,16 @@
+{
+  "students": [
+    {
+      "age": 22,
+      "gender": "male",
+      "name": "Student1",
+      "roll_number": "S00001"
+    },
+    {
+      "age": 12,
+      "gender": "male",
+      "name": "Ajay",
+      "roll_number": "S00002"
+    }
+  ]
+}

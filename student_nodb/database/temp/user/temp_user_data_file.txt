@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "password": "password",
+      "username": "admin"
+    },
+    {
+      "id": 2,
+      "password": "pbkdf2:sha256:50000$Oue5qTjY$58fbabf4bddf9a064d050a0e8aa077d07f26c51d5391cc48a12a4c19c5c94fb5",
+      "username": "hash"
+    }
+  ]
+}
