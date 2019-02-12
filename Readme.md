@@ -49,3 +49,11 @@ This application will work directly on the flat files to store its informations 
 
 You can open the mentioned url for runnig the app on your local machine.
   
+
+# credentials for first time users of the application. 
+- If you see the login page for admin user in you browser. 
+
+Username: 'admin'     // best username for a application admin, I know.... :D
+Password: 'password'  // I know understand this is a bad idea to keep password such as this. Sorry :(
+
+- Don't worry you can add more users but once you should enter into the portal. Use below highly confidential credentials for this app.
