@@ -25,12 +25,11 @@ Main Processes :
 We will be registering this blueprints for this app to provide controllers for the app.
 '''
 
-
 #: create blueprint for auth app.
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
-#: Below will be the start of the views. We basically have 3 views: AddUser, Login and logout.
 
+#: Below will be the start of the views. We basically have 3 views: AddUser, Login and logout.
 #: login view for auth/login.
 @bp.route('/login', methods=['GET', 'POST'])
 def login():

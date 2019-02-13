@@ -61,39 +61,33 @@ def init_db():
     #: load student data for CRUD operations.
     load_student_data()
 
+
 #: validate user credentials for login
-
-
 def validate_login(username='', password=''):
     return login_authenticator(TARGET_USER_FILE, username, password)
 
+
 #: add user to user's database
-
-
 def add_user_data(username='test', password='pass'):
     add_user(TARGET_USER_FILE, username, password)
 
+
 #: ad student to student database.
-
-
 def add_student_data(name='Test Student', age=18, gender='Male'):
     add_data_student(TARGET_STUDENT_FILE, name, age, gender)
 
+
 #: list all student currently in database
-
-
 def list_student_data():
     return list_data_student(TARGET_STUDENT_FILE)
 
+
 #: update student details for a particular database.
-
-
 def update_student(name='', age=0, gender='', roll_number=''):
     update_student_detail(TARGET_STUDENT_FILE, name, age, gender, roll_number)
 
+
 #: delete the student for particular roll number.
-
-
 def delete_student_data(roll_number=''):
     delete_student(TARGET_STUDENT_FILE, roll_number)
 

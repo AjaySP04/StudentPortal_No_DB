@@ -12,7 +12,7 @@ This application will work directly on the flat files to store its informations 
 2. List all dependencies with command 'pip list'
 - You should see student-nodb in list like:
 
-* student-nodb   1.0.0   /home/ajay/Desktop/Projects/NoDatabaseStudentProject/WithDBStudent
+* student-nodb   1.0.0   path_to/project_directory/
 
 3. Now you can set/export flask environment (development in this case.). And follow instructions from 'To Run this app in development mode'.
 
