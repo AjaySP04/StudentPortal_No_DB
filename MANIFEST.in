@@ -1,0 +1,4 @@
+graft student_nodb/static
+graft student_db/templates
+graft student_db/database
+global-exclude *.pyc
